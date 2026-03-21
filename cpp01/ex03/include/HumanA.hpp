@@ -1,6 +1,6 @@
 // Copyright 2026 hyamamot
-#ifndef EX03_INCLUDE_HUMANA_H_
-#define EX03_INCLUDE_HUMANA_H_
+#ifndef CPP01_EX03_INCLUDE_HUMANA_HPP_
+#define CPP01_EX03_INCLUDE_HUMANA_HPP_
 
 #include <string>
 #include "include/Weapon.hpp"
@@ -16,4 +16,4 @@ class HumanA {
   void attack();
 };
 
-#endif  // EX03_INCLUDE_HUMANA_H_
+#endif  // CPP01_EX03_INCLUDE_HUMANA_HPP_

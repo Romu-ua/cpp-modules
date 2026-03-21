@@ -1,5 +1,4 @@
 // Copyright 2026 hyamamot
-
 #include <iostream>
 #include <string>
 #include <map>
@@ -36,5 +35,5 @@ void Harl::complain(std::string level) {
       return;
     }
   }
-  std::cout << "[" <<  level << "] is unknown level" << std::endl; 
+  std::cout << "[" <<  level << "] is unknown level" << std::endl;
 }

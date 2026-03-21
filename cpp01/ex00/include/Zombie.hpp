@@ -1,5 +1,6 @@
-#ifndef ZOMBIE_HPP
-#define ZOMBIE_HPP
+// Copyright 2026 hyamamot
+#ifndef CPP01_EX00_INCLUDE_ZOMBIE_HPP_
+#define CPP01_EX00_INCLUDE_ZOMBIE_HPP_
 
 #include <string>
 
@@ -7,8 +8,8 @@ class Zombie {
   std::string name_;
 
  public:
- Zombie(std::string name);
- ~Zombie();
+  explicit Zombie(std::string name);
+  ~Zombie();
   void announce(void);
 };
 
@@ -18,4 +19,4 @@ void randomChump(std::string name);
 // newZombie.cpp
 Zombie* newZombie(std::string name);
 
-#endif  // ZOMBIE_HPP
+#endif  // CPP01_EX00_INCLUDE_ZOMBIE_HPP_

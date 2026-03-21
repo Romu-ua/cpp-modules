@@ -1,5 +1,6 @@
 // Copyright 2026 hyamamot
 #include <iostream>
+#include <string>
 #include "include/Zombie.hpp"
 
 Zombie::Zombie() {

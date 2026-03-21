@@ -1,6 +1,6 @@
 // Copyright 2026 hyamamot
-#ifndef EX03_INCLUDE_HUMANB_H_
-#define EX03_INCLUDE_HUMANB_H_
+#ifndef CPP01_EX03_INCLUDE_HUMANB_HPP_
+#define CPP01_EX03_INCLUDE_HUMANB_HPP_
 
 #include <string>
 #include "include/Weapon.hpp"
@@ -16,4 +16,4 @@ class HumanB {
   void setWeapon(Weapon& w);
 };
 
-#endif  // EX03_INCLUDE_HUMANB_H_
+#endif  // CPP01_EX03_INCLUDE_HUMANB_HPP_

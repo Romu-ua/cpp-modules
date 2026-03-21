@@ -1,6 +1,6 @@
 CXX			= g++
 CXXFLAGS	= -std=c++98 -pedantic-errors -Wall -Wextra -Werror
-TARGET		= ex04
+TARGET		= sed
 
 SRCS		= main.cpp
 OBJS		= $(SRCS:.cpp=.o)

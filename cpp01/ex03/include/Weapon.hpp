@@ -1,6 +1,6 @@
 // Copyright 2026 hyamamot
-#ifndef EX03_INCLUDE_WEAPON_H_
-#define EX03_INCLUDE_WEAPON_H_
+#ifndef CPP01_EX03_INCLUDE_WEAPON_HPP_
+#define CPP01_EX03_INCLUDE_WEAPON_HPP_
 
 #include <string>
 
@@ -14,4 +14,4 @@ class Weapon {
   void setType(std::string type);
 };
 
-#endif  // EX03_INCLUDE_WEAPON_H_
+#endif  // CPP01_EX03_INCLUDE_WEAPON_HPP_

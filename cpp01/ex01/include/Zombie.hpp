@@ -1,5 +1,6 @@
-#ifndef EX01_INCLUDE_ZOMBIE_HPP
-#define EX01_INCLUDE_ZOMBIE_HPP
+// Copyright 2026 hyamamot
+#ifndef CPP01_EX01_INCLUDE_ZOMBIE_HPP_
+#define CPP01_EX01_INCLUDE_ZOMBIE_HPP_
 
 #include <string>
 
@@ -8,7 +9,7 @@ class Zombie {
 
  public:
   Zombie();
-  Zombie(std::string name);
+  explicit Zombie(std::string name);
   ~Zombie();
 
   void SetName(std::string name);
@@ -19,4 +20,4 @@ class Zombie {
 // zombieHorde.cpp
 Zombie* zombieHorde(int N, std::string name);
 
-#endif  // EX01_INCLUDE_ZOMBIE_HPP
+#endif  // CPP01_EX01_INCLUDE_ZOMBIE_HPP_

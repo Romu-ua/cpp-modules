@@ -2,7 +2,7 @@ CXX			= g++
 CXXFLAGS	= -std=c++98 -pedantic-errors -Wall -Wextra -Werror
 TARGET		= harl
 
-SRCS		= main.cpp src/Harl.cpp
+SRCS		= src/main.cpp src/Harl.cpp
 OBJS		= $(SRCS:.cpp=.o)
 INCLUDES	= -I.
 LIBS		=

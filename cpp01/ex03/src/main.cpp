@@ -12,11 +12,11 @@ int main() {
     std::cout << w.getType() << std::endl;
     w.setType("changed weapone");
     std::cout << w.getType() << std::endl;
-  
+
     std::cout << "---" << std::endl;
     HumanA a("bob", w);
     a.attack();
-  
+
     std::cout << "---" << std::endl;
     HumanB b("Ami");
     b.attack();
