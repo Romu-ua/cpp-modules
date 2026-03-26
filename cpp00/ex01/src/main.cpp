@@ -71,8 +71,14 @@ int main() {
 
   while (true) {
     std::cout << "command(ADD, SEARCH, EXIT): ";
-    if (!std::getline(std::cin, input))
+    if (!std::getline(std::cin, input)) {
+      if (std::cin.eof()) {
+        std::cout << "EOF" << std::endl;
+        break;
+      }
+      std::cin.clear();
       continue;
+    }
 
     if (input == "ADD") {
       while (true) {
